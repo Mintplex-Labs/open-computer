@@ -11,7 +11,7 @@ $ProjectDir = Split-Path -Parent $ScriptDir
 $VmDir = Join-Path (Join-Path $ProjectDir 'master') 'iso'
 
 $DebianVersion = "13.5.0"
-$BaseUrl = "https://debian.osuosl.org/debian-cdimage/$DebianVersion"
+$BaseUrl = "https://cdimage.debian.org/cdimage/archive/$DebianVersion"
 
 if (-not $Arch) {
     $HostArch = $null

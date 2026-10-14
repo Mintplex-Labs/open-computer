@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <p align="center">
-  <a href="https://github.com/Mintplex-Labs/anything-llm/tree/master/open-computer"><img src="https://github.com/Mintplex-Labs/anything-llm/blob/master/open-computer/assets/OPEN_COMPUTER.png?raw=true" alt="Open Computer logo"></a>
+  <a href="https://github.com/Mintplex-Labs/open-computer"><img src="./assets/OPEN_COMPUTER.png" alt="Open Computer logo"></a>
 </p>
 
 <p align="center">
@@ -115,7 +115,7 @@ Pre-built QEMU binaries for macOS ARM64 and Windows x64 are in the `master/qemu`
 
 ## Grab the Base Debian ISO
 
-Download the correct arch ISO (x64 or arm64) from the [Debian OSUOSL mirror](https://debian.osuosl.org/debian-cdimage/13.5.0/) and save it to the `master/iso` folder.
+Download the correct arch ISO (x64 or arm64) from the [Debian CD image archive](https://cdimage.debian.org/cdimage/archive/13.5.0/) and save it to the `master/iso` folder.
 
 Or use the provided fetch script: `scripts/fetch-debian-iso.{sh,ps1}`.
 
@@ -164,3 +164,7 @@ The bones are solid. The vision is clear. The roadmap is ambitious.
 
 Copyright © 2026 [Mintplex Labs](https://github.com/Mintplex-Labs/anything-llm). <br />
 This project is [AGPL-3.0](./LICENSE) licensed.
+
+<!-- LINK GROUP -->
+
+[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-222628?style=flat-square

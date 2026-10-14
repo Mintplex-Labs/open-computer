@@ -6,7 +6,7 @@ PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 VM_DIR="$PROJECT_DIR/master/iso"
 
 DEBIAN_VERSION="13.5.0"
-BASE_URL="https://debian.osuosl.org/debian-cdimage/${DEBIAN_VERSION}"
+BASE_URL="https://cdimage.debian.org/cdimage/archive/${DEBIAN_VERSION}"
 
 # Determine architecture
 ARCH="${1:-}"
